@@ -65,7 +65,7 @@ Open `rent_etl.py` and replace the placeholder in the `API_KEY` variable with yo
 ```python
 API_KEY = "YOUR_RENTCAST_API_KEY_HERE"  # Replace with your API key
 ```
-**Warning:** Hardcoding API keys directly in the script is generally discouraged for production environments. Environment variables are a more secure approach.
+Warning: Hardcoding API keys directly in the script is generally discouraged for production environments due to security risks.  However, for the purposes of this small, demonstration project, this method is acceptable for quick and easy testing. For any real-world application or collaborative project, using environment variables (as described in Option 1) is strongly recommended to protect your API key.
 
 ## Running the Application
 ### Navigate to the Project Directory
