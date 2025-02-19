@@ -10,7 +10,7 @@ from prefect import flow, task
 # RentCast API Configuration
 # ---------------------------------------------------------------
 BASE_URL = "https://api.rentcast.io/v1"
-API_KEY = "2113f35c70ae4203801d53ff7ec5ef2f"
+API_KEY = ""
 
 # ---------------------------------------------------------------
 # 1. Property Value Estimate Flow (using /avm/value)
